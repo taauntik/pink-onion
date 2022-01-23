@@ -1,0 +1,31 @@
+.login-btn {
+  border: none;
+  background-color: #f91944;
+  color: white;
+  font-size: 14px;
+  padding: 5px 20px;
+  border-radius: 999px;
+  transition: 0.2;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.cart {
+  svg {
+    position: relative;
+  }
+  span {
+    position: absolute;
+    color: white;
+    background-color: #f91944;
+    width: 17px;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(14px) translateY(-25px);
+  }
+}
